@@ -3,10 +3,10 @@ const vertexShaderSource = `
     uniform float u_time;
     
     void main() {
-        float a = -2.0 + sin(u_time / 8000.0);
-        float b = -2.0;
-        float c = -1.2;
-        float d = 2.0;
+        float a = 2.01 + sin(u_time / 8000.0);
+        float b = -2.53;
+        float c = 1.61;
+        float d = -.33;
         
         vec2 p = a_position;
         for (int i = 0; i < 100; i++) {
